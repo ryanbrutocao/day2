@@ -1,0 +1,61 @@
+body {
+  background-color: #efeee7;
+  font: Georgia,"Times New Roman",Times,serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+}
+h1 {
+  color: #eee;
+  font-size: 28px;
+  padding: 10px;
+  margin: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #d21034;
+}
+
+#main-bio {
+  float: left;
+  width: 70%;
+}
+
+#contact-info{
+  float: left;
+  width: 30%;
+  line-height: 150%;
+  }
+
+#bio-image {
+  float: left;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+/* 
+  * `h1`
+    * The font color is `#eee`.
+    * The font size is `28px`.
+    * Look at the example on the screen, and eyeball the padding and/or margins and positioning of the text.
+  * `h2`
+    * The font size is `24px`
+  * Make the container have a width of 1024 pixels, and center it. You do this using `margin: 0 auto;`.
+  * Make `#main-bio`, `#contact-info`, `#bio-image` all `float: left`.
+  * Make the `#bio-image` have a width of 200 pixels.
+  * Be sure to include `alt` text in all images
+  * `#main-bio` should have a width of `70%`.
+    * Add margins to the image so there is distance between it and the bio text.
+  * `#contact-info` should have a width of `30%`.
+  * Adjust the line height so it is 1.5 times the size of the font.
+  * Make the link color `#d21034`. */
